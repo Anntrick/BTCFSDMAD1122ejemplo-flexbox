@@ -1,0 +1,19 @@
+section {
+    display: flex;
+    flex-direction: row; /* En qué direccion mostramos las cajas */
+    justify-content: space-between; /* cómo de separadas van en la línea */
+    align-items: center; /* Ubica los hijos en el eje vertical, siempre que tenga mas height */
+    height: 500px;
+    flex-wrap: wrap;
+}
+
+.cajas {
+    width: 30%;
+    height: 100px;
+    background-color: antiquewhite;
+}
+
+#caja2 {
+    align-self: flex-end; /* sólo alinea un elemento */
+
+}
